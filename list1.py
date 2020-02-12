@@ -1,10 +1,6 @@
-l = []
-while 1:
-	item = input("Enter item")
-	l.append(item)
-	
-	n = input('do you want continue')
-	if n.lower()=='n':
-		break
-l.sort(reverse=True,key=max)
-print(l)
+k = list(map(int,input().split()))
+b = []
+for i in k:
+	if i not in b:
+		b.append(i)
+print(*b,sep='*')
