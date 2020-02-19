@@ -1,0 +1,6 @@
+t = (2,)
+print(t,type(t))
+t = tuple()
+print(t,type(t))
+t = ()
+print(t,type(t))
